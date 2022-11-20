@@ -3,7 +3,7 @@ import Leftmain from "../components/leftmain";
 import Rightmain from "../components/rightmain";
 function MyMain() {
   return (
-    <div>
+    <div className="w-full flex">
       <Leftmain />
       <Rightmain />
     </div>
