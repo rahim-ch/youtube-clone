@@ -1,7 +1,13 @@
 import React from "react";
-
-function Mymain() {
-  return <div>main</div>;
+import Leftmain from "../components/leftmain";
+import Rightmain from "../components/rightmain";
+function MyMain() {
+  return (
+    <div>
+      <Leftmain />
+      <Rightmain />
+    </div>
+  );
 }
 
-export default Mymain;
+export default MyMain;
